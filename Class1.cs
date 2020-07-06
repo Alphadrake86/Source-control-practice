@@ -9,7 +9,7 @@ namespace Source_control_practice
         public int number { get; }
         public Class1(int seed)
         {
-            number = seed * new DateTime().Millisecond;
+            number = seed * 99;
         }
     }
 }

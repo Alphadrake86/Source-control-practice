@@ -6,7 +6,9 @@ namespace Source_control_practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
+            Class1 a = new Class1(3);
+            Class1 b = new Class1(123456789);
+            Console.WriteLine("Hello!" + a.number + " " + b.number);
         }
     }
 }
